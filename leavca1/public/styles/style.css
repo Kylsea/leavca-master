@@ -1,0 +1,177 @@
+.logo {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {
+    background: #eee;
+}
+
+.default {
+    color: black;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 182px;
+    height: auto;
+  }
+
+.p_class{
+    display:inline-block
+  }
+
+table {
+    border: 1px solid #DADADB;
+    border-radius: 10px;
+    border-collapse: separate;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.data_table {
+    border: 1px solid #DADADB;
+    border-radius: 10px;
+    border-collapse: separate;
+    width: 100%;
+    height: auto;
+    max-height: 25vh;
+    overflow-y: auto;
+}
+
+tr {
+    width: 100%;
+    height: auto;
+    display: inline-table;
+    table-layout: fixed;
+}
+
+tbody {
+    overflow-y: scroll;      
+    height: inherit;         
+    width: 100%;
+    position: absolute;
+}
+
+table{
+    height:300px;             
+    display: -moz-groupbox;   
+       }
+
+.results {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.p_header {
+    font-size: 4vw;
+    color:#6D6D6D;
+    font-family:Arial Semibold;
+    text-align:center;
+}
+
+.p_table {
+    font-size: 2vw;
+}
+
+.p_details {
+    font-size: 3vw;
+    text-align: left;
+    line-height: 5px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.p_total {
+    font-size: 5vw;
+    text-align: center;
+    font-family:Arial Semibold;
+}
+
+.js-range-slider {
+    max-width: 100%;
+}
+
+.pay_button {
+    background-color: #00C598;
+    border: 0px;
+    border-radius: 10px;
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr_table {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    background-color: #707070;
+}
+
+
+
+.change_method {
+    text-align: right;
+    vertical-align: auto;
+    border: none;
+    background-color: inherit;
+    padding: 7px 14px;
+    font-size: 2.4vw;
+    cursor: pointer;
+    display: inline-block;
+    color: #00C598;
+}
+
+.change_method:hover {
+    background: #eee;
+}
+
+.pay_id {
+    font-size: 2.4vw;
+}
+
+.pay_method_wrapper {
+    border-top: 1px solid #EEEEEF;
+    border-bottom: 1px solid #EEEEEF;
+    margin: 10px;
+}
+
+.container {
+    height: 100%;
+}
+
+.note {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background: #eee;
+    max-width: 360px;
+    border: 1px dotted #bbb;
+}
+
+/* show border around full height container */
+.h-100 {
+    border: 1px dotted #cc2222;
+}
